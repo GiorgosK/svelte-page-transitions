@@ -1,7 +1,8 @@
 <script>
   import Nav from '../components/Nav';
+  export let segment;	
 </script>
 
-<Nav/>
+<Nav {segment}/>
 
-<slot/>
+  <slot/>
