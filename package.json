@@ -1,0 +1,14 @@
+{
+	"name": "svelte-page-transitions",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte dev",
+		"build": "svelte build"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "0.0.14",
+		"@sveltejs/kit": "0.0.25",
+		"@sveltejs/snowpack-config": "0.0.5",
+		"svelte": "^3.29.0"
+	}
+}
