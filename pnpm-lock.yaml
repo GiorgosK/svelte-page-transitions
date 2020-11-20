@@ -1,5 +1,6 @@
 devDependencies:
   '@sveltejs/adapter-node': 0.0.14
+  '@sveltejs/adapter-static': 0.0.14
   '@sveltejs/kit': 0.0.25
   '@sveltejs/snowpack-config': 0.0.5_svelte@3.29.7
   svelte: 3.29.7
@@ -149,6 +150,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-mVCzjk5mTYT28Moa8sAyOJT7Ol0rx9Le8gI6NAOZJ7ECmhWftzz3JqTbYikKx3hNVwxaSMKHal5wCDveP0ZQag==
+  /@sveltejs/adapter-static/0.0.14:
+    dependencies:
+      '@sveltejs/app-utils': 0.0.17
+    dev: true
+    resolution:
+      integrity: sha512-hBxaGU3tg16X+cHLv5ZkoM/nonckH1FcBkzBnB2UI6dPsUNIshWKvlCGZtH1SESStxZl7FZL3eUbsjVdu+Zy9w==
   /@sveltejs/app-utils/0.0.17:
     dependencies:
       mime: 2.4.6
@@ -1750,6 +1757,7 @@ packages:
       integrity: sha512-WOkpgNhPTlE73h4VFAFsOnomJVaovO8VqLDzy5saChRBFQFBoMYirowyW+Q9HB4HFF4Z7VZTiG3iSzJJA29yRA==
 specifiers:
   '@sveltejs/adapter-node': 0.0.14
+  '@sveltejs/adapter-static': ^0.0.14
   '@sveltejs/kit': 0.0.25
   '@sveltejs/snowpack-config': 0.0.5
   svelte: ^3.29.0
