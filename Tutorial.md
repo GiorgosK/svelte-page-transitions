@@ -6,6 +6,8 @@ I have finally created a pageTransition component that **can just be dropped in 
 
 I am going to show you here the steps and the thought process for setting up the component and the changes along the way which was the natural steps that I evolved this component and hopefully they can help someone in understanding layout/route based Svelte reactivity better.
 
+Here is the finished demo: <a href="https://amazing-kirch-8cb3f5.netlify.app/" target="_blank">https://amazing-kirch-8cb3f5.netlify.app/</a>
+
 There is also a [github repo](https://github.com/GiorgosK/svelte-page-transitions) that I have committed all different phases if you need to know all the details.  The tutorial is mostly focuses on inexperienced developers. For more experienced developers you can just skip to the last sections or go straight to the repo.
 
 I have chosen SvelteKit for this demonstration just to try it out and mostly because it seems to be the future of Svelte. If you are using Sapper the steps should be almost identical.
