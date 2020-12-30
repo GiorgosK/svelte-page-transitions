@@ -1,11 +1,11 @@
 <script>
   import Nav from '../components/Nav';
   import PageTransitions from '../components/PageTransitions';
-  export let segment;	
+  import { page } from '@sveltejs/kit/assets/runtime/app/stores.js'
 </script>
 
-<Nav {segment}/>
+<Nav segment={$page.path}/>
 
-<PageTransitions refresh={segment}>
+<PageTransitions refresh={$page.path}>
   <slot/>
 </PageTransitions>
