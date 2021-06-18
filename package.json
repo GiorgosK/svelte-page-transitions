@@ -1,16 +1,21 @@
 {
-	"name": "svelte-page-transitions",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"start": "svelte-kit start"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-node": "next",
-		"@sveltejs/kit": "next",
-		"@sveltejs/snowpack-config": "next",
-		"@sveltejs/adapter-static": "next",
-		"svelte": "^3.31.0"
-	}
+  "name": "svelte-page-transitions",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.34.0"
+  },
+  "type": "module"
 }
